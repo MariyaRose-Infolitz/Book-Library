@@ -1,0 +1,8 @@
+.card img:hover{
+    transition: 0.3 sec ease-in-out;
+    transform: scale(0.9);
+}
+
+.card{
+border: 5px dashed white;
+}

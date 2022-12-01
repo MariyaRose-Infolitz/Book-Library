@@ -1,0 +1,10 @@
+https://www.youtube.com/watch?v=855KrFfF9-w
+
+add-to-cart : book-library
+cart :favourite & completed
+product : book
+
+create restful json api in GitHub : https://www.youtube.com/watch?v=PQaCupFK0pU
+created own json api in GitHub gist
+imported iconf from w3schools
+

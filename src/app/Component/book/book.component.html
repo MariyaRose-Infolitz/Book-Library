@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor=" let item of bookList">
+            <div class="card col-md-3" style="background-color: rgb(155, 205, 155); align-items: center;">
+                <img src="{{item.imageLink}}" alt="" style="width: 300px; height: 450px;">
+                <h3 style="font-size: 30px;">{{item.title}}</h3>
+                <h6> Author : {{item.author}}</h6>
+                <p>Genre : {{item.Genre}}</p>
+                <p>Language :{{item.language}}</p>
+                <p>Published Year :{{item.year}}</p>
+                
+                <button class="btn btn-light"> 
+                    <i class="fa fa-heart" style="font-size:24px"> <strong style="padding: 10px;" (click)=addtofavourite(item)>Add To Favourites</strong> </i>
+                    </button>  <br>
+                    <button class="btn btn-light">
+                        <i class='fas fa-check-square' style='font-size:24px'> <strong style="padding: 10px;" (click)=addtoCompleted(item)>Mark As Completed</strong>  </i>
+                     </button>
+            </div>
+        </ng-container>
+       </div>
+</div>
